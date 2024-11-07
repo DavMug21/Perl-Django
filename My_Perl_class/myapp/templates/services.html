@@ -1,0 +1,27 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/saf1.jpg' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>services</title>
+</head>
+<body>
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_blog' %}">My Blog</a>
+<a href="{% url 'contact' %}">Contact us</a>
+<a href="{% url 'about' %}">About us</a>
+
+<h2>This is a service page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem distinctio et fugit iure laborum mollitia nemo nesciunt officia, placeat porro, qui vel voluptatum. A asperiores fugiat labore nisi recusandae reiciendis.</span><span>Delectus dolor ducimus rerum saepe sequi. Autem, corporis, culpa? Amet corporis delectus ducimus ea est, ex hic mollitia nulla numquam quisquam repudiandae sapiente soluta tempore totam vitae? Fugit, natus quos.</span><span>A amet at beatae commodi dolore doloremque doloribus, eaque error exercitationem nisi numquam obcaecati sequi. Id quidem quos sint? Cumque dolores eos impedit ipsam natus praesentium recusandae rerum sunt voluptatibus.</span><span>Animi architecto consequuntur debitis dolorem incidunt iure numquam provident quasi quidem sequi. Atque cupiditate dolores et eveniet fuga hic, inventore iste qui recusandae totam. Aliquam cumque facere illum labore molestiae?</span></p>
+
+<img src="{% static 'images/pa.jpg' %}" alt="">
+<img src="{% static 'images/p4.jpg' %}" alt="">
+</body>
+</html>

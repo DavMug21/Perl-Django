@@ -1,0 +1,28 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/saf1.jpg' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+</head>
+<body>
+
+<a href="{% url 'home' %}">Home</a>
+<a href="{% url 'my_services' %}">Services</a>
+<a href="{% url 'my_blog' %}">My Blog</a>
+<a href="{% url 'contact' %}">Contact us</a>
+<a href="{% url 'about' %}">About us</a>
+
+<h2>Welcome to Django class</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium ad beatae consequatur cumque debitis dolorum eius eos est facere ipsam iusto, libero porro qui quos sint soluta unde voluptatibus.</span><span>Accusantium alias assumenda atque dignissimos earum fuga id nemo nihil nulla officiis, quae quaerat, quas quia, quidem reprehenderit temporibus tenetur. Animi aspernatur consequuntur cumque incidunt inventore molestiae omnis qui. Sapiente.</span><span>Accusantium animi autem est illo labore nobis, quae voluptates. Aliquid architecto autem consectetur, consequuntur dolor earum facere fuga in ipsam molestiae molestias nemo omnis optio praesentium saepe soluta vitae, voluptatibus.</span><span>Amet beatae cumque dolore doloremque error, esse eveniet excepturi facere harum ipsam itaque laboriosam minus perspiciatis praesentium, quasi quis repellendus similique tenetur? Alias commodi eius inventore iste minima quae vel!</span><span>Ab autem, deleniti doloribus eveniet excepturi, expedita ipsam iste nesciunt non obcaecati, quos sit veritatis. Accusantium aliquam aperiam cumque cupiditate eligendi, exercitationem illo inventore iusto necessitatibus recusandae repudiandae sint voluptas?</span><span>Accusantium animi at cumque, id illum laboriosam libero maxime mollitia nesciunt nostrum numquam obcaecati pariatur perferendis quod tempore vero vitae. Adipisci at laudantium molestiae nulla quia rem repellendus similique tempore!</span><span>Deleniti dicta distinctio, eius eveniet excepturi ipsam laboriosam quisquam recusandae rerum sapiente! Assumenda earum esse, et explicabo facere facilis itaque magnam quasi quisquam, rerum sequi sint suscipit vel. Saepe, veniam!</span><span>Alias beatae consectetur dignissimos dolore error et facere fuga officiis ratione suscipit! Alias, aliquam consectetur corporis, cumque deleniti eaque id illum neque obcaecati quia reiciendis sit vel veritatis vitae voluptates.</span></p>
+<img src="{% static 'images/p2.jpg' %}" alt="">
+<img src="{% static 'images/p3.jpg' %}" alt="">
+
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
